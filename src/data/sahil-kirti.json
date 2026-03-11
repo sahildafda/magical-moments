@@ -1,0 +1,42 @@
+{
+  "boyName": "Sahil",
+  "girlName": "Kirti",
+  "title": "Happy Anniversary My Beautiful Love 💖",
+  "message": "One year ago, I was the luckiest person alive because I had you by my side. Every moment with you has been a blessing, and I cherish every memory we've created together. Here's to many more years of love, laughter, and happiness. I love you more than words can express. Happy Anniversary, my beautiful love! 💖",
+  "music": "/uploads/sahil-kirti/Sajna.mp3",
+  "photos": [
+    "/uploads/sahil-kirti/WhatsApp Image 2026-03-11 at 7.14.12 PM.jpeg",
+    "/uploads/sahil-kirti/WhatsApp Image 2026-03-11 at 7.14.42 PM.jpeg",
+    "/uploads/sahil-kirti/WhatsApp Image 2026-03-11 at 7.15.19 PM.jpeg",
+    "/uploads/sahil-kirti/WhatsApp Image 2026-01-15 at 7.23.02 PM.jpeg",
+    "/uploads/sahil-kirti/WhatsApp Image 2026-02-08 at 8.25.10 PM.jpeg",
+    "/uploads/sahil-kirti/WhatsApp Image 2026-02-23 at 9.15.08 AM copy.jpeg"
+  ],
+  "timeline": [
+    {
+      "title": "Love at First Sight",
+      "date": "2024-09-25",
+      "description": "The moment I saw you in bus, I knew you were the one. Your smile lit up the entire bus, and I couldn't take my eyes off you."
+    },
+    {
+      "title": "Our First Gamezone Date",
+      "date": "2025-02-18",
+      "description": "Our first and the most memorable date at Gamezone. We had so much fun playing games and sharing laughs. It was the perfect start to our beautiful journey together."
+    },
+    {
+      "title": "The Proposal at Ginger",
+      "date": "2025-02-20",
+      "description": "The place where we had romed first time and where I proposed to you. It was a magical moment that I will cherish forever."
+    },
+    {
+      "title": "Marriage",
+      "date": "2025-12-08",
+      "description": "Not that much big but it was the best, most memorable day of my life. I am so grateful to have you as my partner, and I look forward to spending the rest of my life with you."
+    },
+    {
+      "title": "Home Entry",
+      "date": "2026-01-05",
+      "description": "It was a challenging day for both of us, but we made it through together."
+    }
+  ]
+}

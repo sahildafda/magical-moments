@@ -1,0 +1,42 @@
+{
+  "boyName": "Rahul",
+  "girlName": "Anjali",
+  "title": "Happy Birthday My Love ❤️",
+  "message": "Every moment with you is a treasure I hold close to my heart. You light up my world in ways words can never fully express. Your smile is my favorite sight, your laugh my favorite sound, and your happiness my greatest wish. Thank you for being the most amazing person in my life. Here's to many more beautiful memories together!",
+  "music": "/uploads/rahul-anjali/music.mp3",
+  "photos": [
+    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1522673607196-868f1e5a4de0?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1529903278647-ab0b94d2e7af?w=800&h=600&fit=crop"
+  ],
+  "timeline": [
+    {
+      "title": "First Meeting",
+      "date": "2022-02-14",
+      "description": "The day our story started. I still remember the way you smiled when we first met. It felt like fate bringing us together."
+    },
+    {
+      "title": "First Date",
+      "date": "2022-03-05",
+      "description": "Our first official date at that cozy cafe. We talked for hours and it felt like time stood still."
+    },
+    {
+      "title": "First Trip Together",
+      "date": "2023-01-10",
+      "description": "Our adventure to the mountains. One of our best memories together, filled with laughter and beautiful moments."
+    },
+    {
+      "title": "The Proposal",
+      "date": "2023-06-15",
+      "description": "When I asked you to be mine forever. Your yes made me the happiest person alive."
+    },
+    {
+      "title": "Today",
+      "date": "2024-02-14",
+      "description": "And here we are, celebrating another beautiful year of love, laughter, and endless memories. I love you more each day."
+    }
+  ]
+}

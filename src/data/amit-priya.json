@@ -1,0 +1,47 @@
+{
+  "boyName": "Amit",
+  "girlName": "Priya",
+  "title": "Will You Marry Me? 💍",
+  "message": "From the moment we met, I knew you were special. Over these beautiful years together, you've shown me what true love really means. You're my best friend, my confidant, my everything. I can't imagine spending a single day without you by my side. Today, I want to ask you the most important question of my life. Will you make me the happiest person alive and be my forever? I promise to love you, cherish you, and make you smile every single day for the rest of our lives.",
+  "music": "/uploads/amit-priya/music.mp3",
+  "photos": [
+    "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop"
+  ],
+  "timeline": [
+    {
+      "title": "Our Beginning",
+      "date": "2020-01-15",
+      "description": "We met through mutual friends at that New Year celebration. Little did I know, I was meeting my soulmate."
+    },
+    {
+      "title": "First Date Magic",
+      "date": "2020-02-14",
+      "description": "Valentine's Day, 2020. Our first official date at that Italian restaurant. We laughed, talked, and connected like never before."
+    },
+    {
+      "title": "The COVID Journey",
+      "date": "2020-04-01",
+      "description": "Lockdown brought us closer. Video calls every night, virtual dates, and falling deeper in love despite the distance."
+    },
+    {
+      "title": "Moving In Together",
+      "date": "2021-06-10",
+      "description": "We found our perfect little apartment and started building our home together. Every day became an adventure."
+    },
+    {
+      "title": "Meeting Each Other's Families",
+      "date": "2022-11-25",
+      "description": "Thanksgiving 2022. Both our families came together, and it felt like one big happy family. This was when I knew for sure."
+    },
+    {
+      "title": "Today - Our Forever Starts",
+      "date": "2024-02-14",
+      "description": "This is the day I ask you to be mine forever. The beginning of our greatest adventure yet. Will you marry me?"
+    }
+  ]
+}
