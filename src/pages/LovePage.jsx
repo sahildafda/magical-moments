@@ -23,11 +23,11 @@ const LovePage = () => {
         setLoading(true);
         // Try to load the JSON file for the couple
         const response = await fetch(`/src/data/${coupleId}.json`);
-        
+
         if (!response.ok) {
           throw new Error('Couple data not found');
         }
-        
+
         const jsonData = await response.json();
         setData(jsonData);
         setError(null);
@@ -76,7 +76,7 @@ const LovePage = () => {
             We couldn't find a surprise for "{coupleId}". Make sure the URL is correct!
           </p>
           <motion.button
-            onClick={() => navigate('/rahul-anjali')}
+            onClick={() => navigate('/sahil-kirti')}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-3 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-full shadow-lg"

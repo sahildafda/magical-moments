@@ -4,7 +4,7 @@ import LovePage from './pages/LovePage';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navigate to="/rahul-anjali" replace />
+    element: <Navigate to="/sahil-kirti" replace />
   },
   {
     path: '/:coupleId',
@@ -12,6 +12,6 @@ export const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <Navigate to="/rahul-anjali" replace />
+    element: <Navigate to="/sahil-kirti" replace />
   }
 ]);
