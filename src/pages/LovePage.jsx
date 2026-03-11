@@ -22,7 +22,7 @@ const LovePage = () => {
       try {
         setLoading(true);
         // Try to load the JSON file for the couple
-        const response = await fetch(`/src/data/${coupleId}.json`);
+        const response = await fetch(`/data/${coupleId}.json`);
 
         if (!response.ok) {
           throw new Error('Couple data not found');
