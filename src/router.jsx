@@ -6,7 +6,6 @@ export const router = createBrowserRouter([
     path: '/',
     element: <Navigate to="/page-not-found" replace />
   },
-
   {
     path: '/:coupleId',
     element: <LovePage />
