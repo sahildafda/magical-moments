@@ -68,6 +68,36 @@ const Gallery = ({ photos, puzzlePhoto }) => {
     }
   };
 
+  const handleTileClick = (idx) => {
+    console.log("Tile clicked:", idx);
+    if (dragging === null) {
+      setDragging(idx);
+      return;
+    }
+
+    if (dragging === idx) {
+      setDragging(null);
+      return;
+    }
+
+    const next = [...tiles];
+    [next[dragging], next[idx]] = [next[idx], next[dragging]];
+    setTiles(next);
+    setMoves((m) => m + 1);
+    setDragging(null);
+
+    if (checkSolved(next)) {
+      setSolved(true);
+      setCelebrating(true);
+      localStorage.setItem("galleryUnlocked", "true");
+
+      setTimeout(() => {
+        setCelebrating(false);
+        setUnlocked(true);
+      }, 2200);
+    }
+  };
+
   return (
     <section
       ref={ref}
@@ -104,7 +134,7 @@ const Gallery = ({ photos, puzzlePhoto }) => {
             >
               {!solved && (
                 <p className="font-body text-gray-600 mb-4 text-center">
-                  Drag & drop the tiles to put the picture back together 💕
+                  Tap tiles to swap 💕
                 </p>
               )}
 
@@ -143,21 +173,21 @@ const Gallery = ({ photos, puzzlePhoto }) => {
                   return (
                     <motion.div
                       key={tileIdx}
-                      draggable
-                      onDragStart={() => setDragging(slotIdx)}
-                      onDragOver={(e) => e.preventDefault()}
-                      onDrop={() => handleDrop(slotIdx)}
+                      onTap={() => handleTileClick(slotIdx)}
                       animate={celebrating && correct ? { scale: [1, 1.05, 1] } : {}}
                       transition={{ duration: 0.4, repeat: celebrating ? 3 : 0 }}
-                      className="cursor-grab active:cursor-grabbing overflow-hidden"
+                      className="cursor-pointer overflow-hidden"
                       style={{
                         backgroundImage: `url(${encodeURI(puzzlePhoto)})`,
                         backgroundSize: `${tileSize * GRID}px ${tileSize * GRID}px`,
                         backgroundPosition: `${-col * tileSize}px ${-row * tileSize}px`,
                         backgroundRepeat: 'no-repeat',
-                        outline: correct && !solved
-                          ? '2px solid rgba(244,63,110,0.6)'
-                          : 'none',
+                        outline:
+                          dragging === slotIdx
+                            ? '3px solid #ec4899'
+                            : correct && !solved
+                              ? '2px solid rgba(244,63,110,0.6)'
+                              : 'none',
                         transition: 'outline 0.3s',
                       }}
                     />
