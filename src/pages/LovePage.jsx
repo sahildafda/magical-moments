@@ -107,7 +107,7 @@ const LovePage = () => {
           message={data.message}
         />
 
-        <Gallery photos={data.photos} />
+        <Gallery photos={data.photos} puzzlePhoto={data.puzzlePhoto} />
 
         <Timeline timeline={data.timeline} />
 
