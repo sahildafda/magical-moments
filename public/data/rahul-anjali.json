@@ -2,16 +2,18 @@
   "boyName": "Rahul",
   "girlName": "Anjali",
   "title": "Happy Birthday My Love ❤️",
+  "loveCode": "1432",
   "message": "Every moment with you is a treasure I hold close to my heart. You light up my world in ways words can never fully express. Your smile is my favorite sight, your laugh my favorite sound, and your happiness my greatest wish. Thank you for being the most amazing person in my life. Here's to many more beautiful memories together!",
-  "music": "/uploads/rahul-anjali/music.mp3",
+  "music": "/uploads/rahul-anjali/Sajna.mp3",
   "photos": [
-    "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1522673607196-868f1e5a4de0?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1529903278647-ab0b94d2e7af?w=800&h=600&fit=crop"
+    "/uploads/rahul-anjali/1.png",
+    "/uploads/rahul-anjali/2.png",
+    "/uploads/rahul-anjali/3.png",
+    "/uploads/rahul-anjali/4.png",
+    "/uploads/rahul-anjali/5.png",
+    "/uploads/rahul-anjali/6.png"
   ],
+  "puzzlePhoto": "/uploads/rahul-anjali/puzzle-photo.png",
   "timeline": [
     {
       "title": "First Meeting",

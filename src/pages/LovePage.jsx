@@ -8,6 +8,7 @@ import Timeline from '../components/Timeline';
 import MusicPlayer from '../components/MusicPlayer';
 import Surprise from '../components/Surprise';
 import Loading from '../components/Loading';
+import LoveLock from "../components/LoveLock";
 
 const LovePage = () => {
   const { coupleId } = useParams();
@@ -16,6 +17,7 @@ const LovePage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const sectionsRef = useRef(null);
+  const [unlocked, setUnlocked] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -48,12 +50,23 @@ const LovePage = () => {
       setError('No couple ID provided');
       setLoading(false);
     }
+
+    const isUnlocked =
+      sessionStorage.getItem(`love-unlock-${coupleId}`) === "true";
+
+    setUnlocked(isUnlocked);
+
   }, [coupleId]);
 
   const scrollToSections = () => {
     if (sectionsRef.current) {
       sectionsRef.current.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleUnlock = () => {
+    sessionStorage.setItem(`love-unlock-${coupleId}`, "true");
+    setUnlocked(true);
   };
 
   if (loading) {
@@ -75,20 +88,22 @@ const LovePage = () => {
           <p className="font-body text-gray-700 mb-6">
             We couldn't find a surprise for "{coupleId}". Make sure the URL is correct!
           </p>
-          <motion.button
-            onClick={() => navigate('/sahil-kirti')}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-full shadow-lg"
-          >
-            View Sample Surprise
-          </motion.button>
         </motion.div>
       </div>
     );
   }
 
+  if (!loading && data && !unlocked) {
+    return (
+      <LoveLock
+        correctCode={data.loveCode}
+        onUnlock={handleUnlock}
+      />
+    );
+  }
+
   return (
+
     <div className="relative">
       {/* Music Player */}
       <MusicPlayer musicUrl={data.music} />
