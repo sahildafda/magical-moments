@@ -18,13 +18,13 @@ const Gallery = ({ photos, puzzlePhoto }) => {
   const [tileSize, setTileSize] = useState(0);
   const puzzleRef = useRef(null);
 
-  useEffect(() => {
-    const isUnlocked = localStorage.getItem("galleryUnlocked") === "true";
-    if (isUnlocked) {
-      setUnlocked(true);
-      setSolved(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const isUnlocked = localStorage.getItem("galleryUnlocked") === "true";
+  //   if (isUnlocked) {
+  //     setUnlocked(true);
+  //     setSolved(true);
+  //   }
+  // }, []);
 
   useEffect(() => {
     const ordered = Array.from({ length: GRID * GRID }, (_, i) => i);

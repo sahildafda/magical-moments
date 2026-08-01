@@ -1,0 +1,26 @@
+{
+    "boyName": "Rakesh",
+    "girlName": "Khushi",
+    "title": "Happy 365 Days to Us! 💖",
+    "loveCode": "0308",
+    "message": "One year ago, I was the luckiest person alive because I had you by my side. Every moment with you has been a blessing, and I cherish every memory we've created together. Here's to many more years of love, laughter, and happiness. Happy 365 Days to us! 💖",
+    "music": "/uploads/rakesh-khushi/Tum ho toh.mp3",
+    "photos": [
+        "/uploads/rakesh-khushi/1.jpeg",
+        "/uploads/rakesh-khushi/2.jpeg"
+    ],
+    "puzzlePhoto": "/uploads/rakesh-khushi/puzzle-photo.jpeg",
+    "timeline": [
+        {
+            "title": "First Time We Met",
+            "date": "2025-05-08",
+            "description": "The moment I saw you, I knew you were the one. Your smile lit up the entire room, and I couldn't take my eyes off you."
+        },
+        {
+            "title": "The day of YES",
+            "date": "2025-08-03",
+            "description": "The day I said yes, it was the happiest day of my life. I am so grateful to have you as my partner, and I look forward to spending the rest of my life with you."
+        }
+    ],
+    "isSurprise": false
+}

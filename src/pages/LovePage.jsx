@@ -126,10 +126,12 @@ const LovePage = () => {
 
         <Timeline timeline={data.timeline} />
 
-        <Surprise
-          boyName={data.boyName}
-          girlName={data.girlName}
-        />
+        {data.isSurprise === true && (
+          <Surprise
+            boyName={data.boyName}
+            girlName={data.girlName}
+          />
+        )}
       </div>
 
       {/* Footer */}
